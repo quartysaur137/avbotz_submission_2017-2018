@@ -1,1 +1,21 @@
-Monte Carlo Localization, or MCL, is an algorithm designed to help with determining the location of a robot. It starts out with a random sample of points, equally distributed throughout whatever space is being used and each of which can represent the position of the robot, and comes in a few steps: a motion update, where the robot moves a little bit and all the points get adjusted accordingly, a sensor update, where the robot detects something directly in front of it or some distance away and weights the points with probabilities depending on how likely the robot can be at that location, and a resampling of the points, where the old points get scrapped and new points are placed according to how likely they can represent the robot’s location. This algorithm gets repeated many times to get a better sense of where the robot is, maybe with respect to a certain object. I’ve heard Varun is bad at this? Then again I probably can’t do better.
+Monte Carlo Localization, or MCL, is an algorithm designed to help with determining the
+
+location of a robot. It starts out with a random sample of points, equally distributed 
+
+throughout whatever space is being used and each of which can represent the position of 
+
+the robot, and comes in a few steps: a motion update, where the robot moves a little bit 
+
+and all the points get adjusted accordingly, a sensor update, where the robot detects 
+
+something directly in front of it or some distance away and weights the points with 
+
+probabilities depending on how likely the robot can be at that location, and a resampling 
+
+of the points, where the old points get scrapped and new points are placed according to 
+
+how likely they can represent the robot’s location. This algorithm gets repeated many 
+
+times to get a better sense of where the robot is, maybe with respect to a certain object. 
+
+I’ve heard Varun is bad at this? Then again I probably can’t do better.
