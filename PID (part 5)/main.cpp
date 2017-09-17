@@ -1,7 +1,6 @@
 #include <iostream>
 
 #include "pid.hpp"
-#include "pid.cpp"
 
 
 int main()
